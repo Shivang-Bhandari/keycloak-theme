@@ -1,7 +1,5 @@
 .login-pf body {
-    //to remove patternfly background css
     background: none;
-    //normal css
     background-image: url(https://toolassets.haptikapi.com/haptik-offerings/bg.png);
     background-size: cover;
     background-color: #fff;
