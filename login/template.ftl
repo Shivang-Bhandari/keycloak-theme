@@ -33,9 +33,6 @@
 
 <body class="${properties.kcBodyClass!}">
   <div class="${properties.kcLoginClass!}">
-    <div id="kc-header" class="${properties.kcHeaderClass!}">
-      <div id="kc-header-wrapper" class="${properties.kcHeaderWrapperClass!}">${kcSanitize(msg("loginTitleHtml",(realm.displayNameHtml!'')))?no_esc}</div>
-    </div>
     <div class="full-width text-center-align">
         <img src="https://toolassets.haptikapi.com/haptik-offerings/haptik-hand.svg" width="142" height="148">
     </div>
