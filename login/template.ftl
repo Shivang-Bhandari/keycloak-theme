@@ -33,7 +33,7 @@
 
 <body class="${properties.kcBodyClass!}">
   <div class="${properties.kcLoginClass!}">
-    <div class="full-width text-center-align">
+    <div class="full-width header-image text-center-align">
         <img src="https://toolassets.haptikapi.com/haptik-offerings/haptik-hand.svg" width="142" height="148">
     </div>
    <div style="font-size:36px;" class="text-center-align" >Welcome to Haptik</div>
