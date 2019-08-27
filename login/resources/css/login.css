@@ -8,6 +8,10 @@
     height: 100%;
 }
 
+.header-image {
+    margin-top: 20px;
+}
+
 .text-center-align {
     text-align: center;
 }
