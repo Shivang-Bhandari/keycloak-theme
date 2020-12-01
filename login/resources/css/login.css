@@ -1,75 +1,82 @@
 .login-pf body {
-    background: none;
-    background-image: url(https://toolassets.haptikapi.com/haptik-offerings/bg.png);
-    background-size: cover;
-    background-color: #fff;
-    min-height: 418px;
-    min-width: 760px;
-    height: 100%;
+  background: none;
+  background-image: url(https://toolassets.haptikapi.com/haptik-offerings/bg.png);
+  background-size: cover;
+  background-color: #fff;
+  min-height: 418px;
+  min-width: 760px;
+  height: 100%;
 }
 
 .header-image {
-    margin-top: 20px;
+  margin-top: 20px;
+}
+
+.welcome-heading {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+  margin-top: 16px;
 }
 
 .text-center-align {
-    text-align: center;
+  text-align: center;
 }
 
 .full-width {
-    width: 100%;
+  width: 100%;
 }
 
 error {
-    background-color: #ffffff;
-    border-color: #cc0000;
-    color: #333333;
+  background-color: #ffffff;
+  border-color: #cc0000;
+  color: #333333;
 }
 
 #kc-locale ul {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    list-style: none;
-    right: 0;
-    top: 20px;
-    min-width: 100px;
-    padding: 2px 0;
-    border: solid 1px #bbb;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  list-style: none;
+  right: 0;
+  top: 20px;
+  min-width: 100px;
+  padding: 2px 0;
+  border: solid 1px #bbb;
 }
 
 #kc-locale:hover ul {
-    display: block;
-    margin: 0;
+  display: block;
+  margin: 0;
 }
 
 #kc-locale ul li a {
-    display: block;
-    padding: 5px 14px;
-    color: #000 !important;
-    text-decoration: none;
-    line-height: 20px;
+  display: block;
+  padding: 5px 14px;
+  color: #000 !important;
+  text-decoration: none;
+  line-height: 20px;
 }
 
 #kc-locale ul li a:hover {
-    color: #4d5258;
-    background-color: #d4edfa;
+  color: #4d5258;
+  background-color: #d4edfa;
 }
 
 #kc-locale-dropdown a {
-    color: #4d5258;
-    background: 0 0;
-    padding: 0 15px 0 0;
-    font-weight: 300;
+  color: #4d5258;
+  background: 0 0;
+  padding: 0 15px 0 0;
+  font-weight: 300;
 }
 
 #kc-locale-dropdown a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a#kc-current-locale-link {
-    display: block;
-    padding: 0 5px;
+  display: block;
+  padding: 0 5px;
 }
 
 /* a#kc-current-locale-link:hover {
@@ -77,59 +84,59 @@ a#kc-current-locale-link {
 } */
 
 a#kc-current-locale-link::after {
-    content: "\2c5";
-    margin-left: 4px;
+  content: "\2c5";
+  margin-left: 4px;
 }
 
 .login-pf .container {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 .login-pf a:hover {
-    color: #0099d3;
+  color: #0099d3;
 }
 
 #kc-logo {
-    width: 100%;
+  width: 100%;
 }
 
 #kc-logo-wrapper {
-    background-image: url(../img/keycloak-logo-2.png);
-    background-repeat: no-repeat;
-    height: 63px;
-    width: 300px;
-    margin: 62px auto 0;
+  background-image: url(../img/keycloak-logo-2.png);
+  background-repeat: no-repeat;
+  height: 63px;
+  width: 300px;
+  margin: 62px auto 0;
 }
 
 div.kc-logo-text {
-    background-image: url(../img/keycloak-logo-text.png);
-    background-repeat: no-repeat;
-    height: 63px;
-    width: 300px;
-    margin: 0 auto;
+  background-image: url(../img/keycloak-logo-text.png);
+  background-repeat: no-repeat;
+  height: 63px;
+  width: 300px;
+  margin: 0 auto;
 }
 
 div.kc-logo-text span {
-    display: none;
+  display: none;
 }
 
 #kc-header {
-    color: #000000;
-    overflow: visible;
-    white-space: nowrap;
+  color: #000000;
+  overflow: visible;
+  white-space: nowrap;
 }
 
 #kc-header-wrapper {
-    font-size: 29px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    line-height: 1.2em;
-    padding: 62px 10px 20px;
-    white-space: normal;
+  font-size: 29px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 1.2em;
+  padding: 62px 10px 20px;
+  white-space: normal;
 }
 
 #kc-content {
-    width: 100%;
+  width: 100%;
 }
 
 /* #kc-content-wrapper {
@@ -137,36 +144,48 @@ div.kc-logo-text span {
 } */
 
 #kc-info {
-    padding-bottom: 200px;
-    margin-bottom: -200px;
+  padding-bottom: 200px;
+  margin-bottom: -200px;
 }
 
 #kc-info-wrapper {
-    font-size: 13px;
+  font-size: 13px;
+}
+
+#kc-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#kc-form-wrapper {
+  border-right: none;
+  margin: 0 auto;
+  padding-right: 0;
+  min-width: 420px;
 }
 
 #kc-form-options span {
-    display: block;
+  display: block;
 }
 
 #kc-form-options .checkbox {
-    margin-top: 0;
-    color: #72767b;
+  margin-top: 0;
+  color: #72767b;
 }
 
 #kc-terms-text {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #kc-registration {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 /* TOTP */
 
 ol#kc-totp-settings {
-    margin: 0;
-    padding-left: 20px;
+  margin: 0;
+  padding-left: 20px;
 }
 
 ul#kc-totp-supported-apps {
@@ -174,86 +193,93 @@ ul#kc-totp-supported-apps {
 }
 
 #kc-totp-secret-qr-code {
-    max-width:150px;
-    max-height:150px;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 #kc-totp-secret-key {
-    background-color: #fff;
-    color: #333333;
-    font-size: 16px;
-    padding: 10px 0;
+  background-color: #fff;
+  color: #333333;
+  font-size: 16px;
+  padding: 10px 0;
 }
 
 /* OAuth */
 
 #kc-oauth h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 #kc-oauth ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 #kc-oauth ul li {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    font-size: 12px;
-    padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 12px;
+  padding: 10px 0;
 }
 
 #kc-oauth ul li:first-of-type {
-    border-top: 0;
+  border-top: 0;
 }
 
 #kc-oauth .kc-role {
-    display: inline-block;
-    width: 50%;
+  display: inline-block;
+  width: 50%;
 }
 
 /* Code */
 #kc-code textarea {
-    width: 100%;
-    height: 8em;
+  width: 100%;
+  height: 8em;
 }
 
 /* Social */
 
+#kc-social-providers {
+  padding-left: 0;
+  margin: 0 auto;
+  border: 0;
+  min-width: 420px;
+}
+
 #kc-social-providers ul {
-    padding: 0;
+  padding: 0;
 }
 
 #kc-social-providers li {
-    display: block;
+  display: block;
 }
 
 #kc-social-providers li:first-of-type {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .zocial,
-a.zocial  {
-    width: 100%;
-    font-weight: normal;
-    font-size: 14px;
-    text-shadow: none;
-    border: 0;
-    background: #f5f5f5;
-    color: #72767b;
-    border-radius: 0;
-    white-space: normal;
+a.zocial {
+  width: 100%;
+  font-weight: normal;
+  font-size: 14px;
+  text-shadow: none;
+  border: 0;
+  background: #f5f5f5;
+  color: #72767b;
+  border-radius: 0;
+  white-space: normal;
 }
 .zocial:before {
   border-right: 0;
   margin-right: 0;
 }
 .zocial span:before {
-    padding: 7px 10px;
-    font-size: 14px;
+  padding: 7px 10px;
+  font-size: 14px;
 }
 .zocial:hover {
-    background: #ededed !important;
+  background: #ededed !important;
 }
 
 .zocial.facebook,
@@ -263,123 +289,125 @@ a.zocial  {
 .zocial.stackoverflow,
 .zocial.linkedin,
 .zocial.twitter {
-    background-image: none;
-    border: 0;
+  background-image: none;
+  border: 0;
 
-    box-shadow: none;
-    text-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
 }
 
 /* Copy of zocial windows classes to be used for microsoft's social provider button */
-.zocial.microsoft:before{ content: "\f15d"; }
-.zocial.stackoverflow:before{ color: inherit; }
-
+.zocial.microsoft:before {
+  content: "\f15d";
+}
+.zocial.stackoverflow:before {
+  color: inherit;
+}
 
 @media (min-width: 768px) {
-    #kc-container-wrapper {
-        position: absolute;
-        width: 100%;
-    }
+  #kc-container-wrapper {
+    position: absolute;
+    width: 100%;
+  }
 
-    .login-pf .container {
-        padding-right: 80px;
-    }
+  .login-pf .container {
+    padding-right: 80px;
+  }
 
-    #kc-locale {
-        position: relative;
-        text-align: right;
-        z-index: 9999;
-    }
+  #kc-locale {
+    position: relative;
+    text-align: right;
+    z-index: 9999;
+  }
 }
 
 @media (max-width: 767px) {
+  .login-pf body {
+    background: white;
+  }
 
-    .login-pf body {
-      background: white;
-    }
+  #kc-header {
+    padding-left: 15px;
+    padding-right: 15px;
+    float: none;
+    text-align: left;
+  }
 
-    #kc-header {
-        padding-left: 15px;
-        padding-right: 15px;
-        float: none;
-        text-align: left;
-    }
+  #kc-header-wrapper {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 60px 0 0;
+    color: #72767b;
+    letter-spacing: 0;
+  }
 
-    #kc-header-wrapper {
-      font-size: 16px;
-      font-weight: bold;
-      padding: 20px 60px 0 0;
-      color: #72767b;
-      letter-spacing: 0;
-    }
+  div.kc-logo-text {
+    margin: 0;
+    width: 150px;
+    height: 32px;
+    background-size: 100%;
+  }
 
-    div.kc-logo-text {
-        margin: 0;
-        width: 150px;
-        height: 32px;
-        background-size: 100%;
-    }
+  #kc-form {
+    float: none;
+  }
 
-    #kc-form {
-        float: none;
-    }
+  #kc-info-wrapper {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 15px;
+  }
 
-    #kc-info-wrapper {
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
-        margin-top: 15px;
-        padding-top: 15px;
-        padding-left: 0px;
-        padding-right: 15px;
-    }
+  #kc-social-providers li {
+    display: block;
+    margin-right: 5px;
+  }
 
-    #kc-social-providers li {
-        display: block;
-        margin-right: 5px;
-    }
+  .login-pf .container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 
-    .login-pf .container {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
+  #kc-locale {
+    position: absolute;
+    width: 200px;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    z-index: 9999;
+  }
 
-    #kc-locale {
-        position: absolute;
-        width: 200px;
-        top: 20px;
-        right: 20px;
-        text-align: right;
-        z-index: 9999;
-    }
-
-    #kc-logo-wrapper {
-        background-size: 100px 21px;
-        height: 21px;
-        width: 100px;
-        margin: 20px 0 0 20px;
-    }
-
+  #kc-logo-wrapper {
+    background-size: 100px 21px;
+    height: 21px;
+    width: 100px;
+    margin: 20px 0 0 20px;
+  }
 }
 
 @media (min-height: 646px) {
-    #kc-container-wrapper {
-        bottom: 12%;
-    }
+  #kc-container-wrapper {
+    bottom: 12%;
+  }
 }
 
 @media (max-height: 645px) {
-    #kc-container-wrapper {
-        padding-top: 50px;
-        top: 20%;
-    }
+  #kc-container-wrapper {
+    padding-top: 50px;
+    top: 20%;
+  }
 }
 
 .card-pf form.form-actions .btn {
-    float: right;
-    margin-left: 10px;
+  float: right;
+  margin-left: 10px;
 }
 
 #kc-form-buttons {
   margin-top: 40px;
+  margin-bottom: 24px;
 }
 
 .login-pf-page .login-pf-brand {
@@ -399,23 +427,23 @@ a.zocial  {
 
 /*tablet*/
 @media (max-width: 840px) {
-    .login-pf-page .card-pf{
-      max-width: none;
-      margin-left: 20px;
-      margin-right: 20px;
-      padding: 20px 20px 30px 20px;
-    }
+  .login-pf-page .card-pf {
+    max-width: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 20px 30px 20px;
+  }
 }
 @media (max-width: 767px) {
-    .login-pf-page .card-pf{
-      max-width: none;
-      margin-left: 0;
-      margin-right: 0;
-      padding-top: 0;
-    }
-    .card-pf.login-pf-accounts{
-      max-width: none;
-    }
+  .login-pf-page .card-pf {
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+  }
+  .card-pf.login-pf-accounts {
+    max-width: none;
+  }
 }
 
 .login-pf-page .login-pf-signup {
@@ -454,5 +482,5 @@ a.zocial  {
 }
 
 .login-pf-page .btn-primary {
-    margin-top: 0;
+  margin-top: 0;
 }
