@@ -163,6 +163,13 @@ div.kc-logo-text span {
   font-size: 13px;
 }
 
+#kc-social-providers-or {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+
 #kc-form-login label {
   font-size: 14px;
 }
@@ -530,7 +537,7 @@ a.zocial {
   color: #fff;
 }
 
-.login-pf-page .login-pf-socidal-link a:hover {
+.login-pf-socidal-link a:hover {
   background: #025bc1 !important;
 }
 
