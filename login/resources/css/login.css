@@ -537,7 +537,7 @@ a.zocial {
   color: #fff;
 }
 
-.login-pf-socidal-link a:hover {
+.login-pf-social-link > a:hover {
   background: #025bc1 !important;
 }
 
