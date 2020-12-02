@@ -163,6 +163,21 @@ div.kc-logo-text span {
   font-size: 13px;
 }
 
+#kc-form-login label {
+  font-size: 14px;
+}
+
+#kc-form-login .form-control {
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid #bdbdbd;
+}
+
+#kc-form-login a {
+  color: #3492ff;
+  font-weight: 600;
+}
+
 #kc-form {
   display: flex;
   flex-direction: column;
@@ -288,9 +303,6 @@ a.zocial {
 .zocial span:before {
   padding: 7px 10px;
   font-size: 14px;
-}
-.zocial:hover {
-  background: #ededed !important;
 }
 
 .zocial.facebook,
@@ -432,6 +444,10 @@ a.zocial {
   font-weight: 600;
 }
 
+#kc-form-buttons > input:hover {
+  background: #025bc1;
+}
+
 .login-pf-page .login-pf-brand {
   margin-top: 20px;
   max-width: 360px;
@@ -477,6 +493,14 @@ a.zocial {
   margin-right: 0;
 }
 
+#kc-content-wrapper .alert {
+  text-align: center;
+}
+
+#kc-content-wrapper .pficon {
+  left: 36% !important;
+}
+
 @media (min-width: 768px) {
   .login-pf-page .login-pf-social-section:first-of-type {
     padding-right: 39px;
@@ -505,6 +529,11 @@ a.zocial {
   font-weight: 600;
   color: #fff;
 }
+
+.login-pf-page .login-pf-socidal-link a:hover {
+  background: #025bc1 !important;
+}
+
 .login-pf-page .login-pf-social-link a > span {
   margin-left: -30px;
 }
