@@ -1,8 +1,6 @@
 .login-pf body {
-  background: none;
-  background: #f2f2f2;
+  background: #f2f2f2 !important;
   background-size: cover;
-  background-color: #fff;
   min-height: 418px;
   min-width: 760px;
   height: 100%;
