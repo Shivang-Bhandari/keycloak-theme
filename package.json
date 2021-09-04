@@ -1,0 +1,24 @@
+{
+  "name": "keycloak-theme",
+  "version": "0.1.0",
+  "description": "For my test ftl-files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanShavliuga/keycloak-theme.git"
+  },
+  "keywords": [
+    "test",
+    "keycloak",
+    "ftl"
+  ],
+  "author": "iv2 <iva.drakon.nov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanShavliuga/keycloak-theme/issues"
+  },
+  "homepage": "https://github.com/IvanShavliuga/keycloak-theme#readme"
+}
