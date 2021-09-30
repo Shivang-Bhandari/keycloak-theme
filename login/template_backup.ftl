@@ -36,7 +36,7 @@
     <div class="full-width hand-logo text-center-align">
         <img src="https://toolassets.haptikapi.com/haptik-offerings/haptik-hand.svg" width="142" height="148">
     </div>
-   <div style="font-size:36px;" class="welcome-heading text-center-align" >Welcome to Haptik</div>
+   <div style="font-size:36px;" class="text-center-align" >Welcome to Haptik</div>
     <div class="${properties.kcFormCardClass!} <#if displayWide>${properties.kcFormCardAccountClass!}</#if>">
       <header class="${properties.kcFormHeaderClass!}">
         <#if realm.internationalizationEnabled  && locale.supported?size gt 1>
